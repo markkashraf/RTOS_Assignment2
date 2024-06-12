@@ -1,8 +1,7 @@
 /* Board Support Package (BSP) for the EK-TM4C123GXL board */
 #include <stdint.h>  /* Standard integers. WG14/N843 C99 Standard */
-
+#include "os.h"
 #include "bsp.h"
-#include "scheduler.h"
 #include "TM4C123GH6PM.h" /* the TM4C MCU Peripheral Access Layer (TI) */
 
 /* on-board LEDs */
@@ -14,7 +13,6 @@ static uint32_t volatile l_tickCtr;
 
 void SysTick_Handler(void) {
     ++l_tickCtr;
-
     __disable_irq();
     OS_sched();
     __enable_irq();

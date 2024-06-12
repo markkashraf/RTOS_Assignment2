@@ -1,2 +1,1 @@
-./objects/main.o: main.c C:\Keil_v5\ARM\ARMCLANG\include\stdint.h miros.h \
-  bsp.h
+./objects/main.o: main.c os.h diot.h

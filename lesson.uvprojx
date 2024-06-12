@@ -10,7 +10,7 @@
       <TargetName>Debug</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>6190000::V6.19::ARMCLANG</pCCUsed>
+      <pCCUsed>6220000::V6.22::ARMCLANG</pCCUsed>
       <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -400,14 +400,14 @@
               <FilePath>.\bsp.h</FilePath>
             </File>
             <File>
-              <FileName>miros.c</FileName>
+              <FileName>os.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\miros.c</FilePath>
+              <FilePath>.\os.c</FilePath>
             </File>
             <File>
-              <FileName>miros.h</FileName>
+              <FileName>os.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\miros.h</FilePath>
+              <FilePath>.\os.h</FilePath>
             </File>
           </Files>
         </Group>
